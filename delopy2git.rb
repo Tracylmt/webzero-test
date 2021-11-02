@@ -49,5 +49,5 @@
 # puts `git remote add origin https://github.com/Tracylmt/webzero-test.git`
 
 puts `git add .`
-puts `git commit -m "initial post"`
+puts `git commit -m ".gitignore added"`
 puts `git push origin main`
