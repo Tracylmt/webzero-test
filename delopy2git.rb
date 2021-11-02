@@ -2,7 +2,7 @@
 # puts `cd webzero-test`
 
 puts `git remote prune origin`
-puts `cd webzero-test/output_local`
+puts `cd ./webzero-test/output_local`
 puts `git checkout --orphan gh-pages`
 puts `bundle add webrick`
 puts `bundle exec jekyll build output_local`
