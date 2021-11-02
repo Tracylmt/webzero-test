@@ -1,9 +1,9 @@
 # puts `git init`
 # puts `cd webzero-test`
 
-# puts Dir.pwd
+puts Dir.pwd
 
-puts `cd ./output_local`
+puts `cd #{Dir.pwd}/output_local`
 # puts `git checkout --orphan gh-pages`
 puts `bundle add webrick`
 puts `bundle exec jekyll build output_local`
