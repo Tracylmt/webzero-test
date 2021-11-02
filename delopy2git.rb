@@ -8,3 +8,4 @@ puts `bundle exec jekyll build output_local`
 puts `git add .`
 puts `git commit -m ".gitignore added"`
 puts `git push origin main`
+puts `bundle exec jekyll serve --watch`
