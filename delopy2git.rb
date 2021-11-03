@@ -10,6 +10,6 @@ puts `cd #{Dir.pwd}/output_local/`
 puts `bundle exec jekyll build output_local`
 # puts `bundle exec jekyll serve --watch`
 puts `git add .`
-puts `git commit -m "initial github pages site"`
+puts `git commit -m "uploaded github pages site"`
 # puts `git remote add origin https://github.com/Tracylmt/webzero-test.git`
 puts `git push origin main`
