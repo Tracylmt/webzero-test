@@ -2,6 +2,6 @@ domain: tracylmt.github.io       # if you want to force HTTPS, specify the domai
 url: https://tracylmt.github.io  # the base hostname and protocol for your site, e.g. http://example.com
 #baseurl: /output_local      # place folder name if the site is served in a subfolder
 source: ./output_local
-destination: ./docs/_site
+destination: ./docs
 regenerate: true
 github: [metadata]
